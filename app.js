@@ -6,6 +6,9 @@
 // true or false : The Author completed 3 quarters of Community College
 // Has the author ever been employed as a security officer?
 
+var personalMessage = alert("Hello! Welcome to my site! Please take the test after reading my Bio to get to know me better!");
+var userName = prompt("What is your name?"); 
+
 function bioTest() {
     var workHistory = prompt("Does the Author work for a shipping company?"); {
         if(workHistory.toLowerCase() == "no") {
