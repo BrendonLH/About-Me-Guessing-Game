@@ -1,6 +1,8 @@
 img {
     width: 15%;
     border: 5px solid rgb(99, 112, 230);
+    border-radius: 50%;
+    
 }
 body {
     margin: auto;
@@ -29,4 +31,7 @@ main,footer {
 footer p  {
         margin:-.2%;
         text-align: center;
+}
+button {
+    margin-bottom: 2%;
 }
