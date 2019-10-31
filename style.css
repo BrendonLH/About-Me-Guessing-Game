@@ -2,6 +2,8 @@ img {
     width: 15%;
     border: 5px solid rgb(99, 112, 230);
     border-radius: 50%;
+    box-shadow: 10px 1px rgb(63, 75, 148);
+    
     
 }
 body {
@@ -13,6 +15,8 @@ body {
 header {
     background-color: rgb(177, 183, 199);
     text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
 }
 main {
     background-color: rgb(253, 253, 253);
@@ -26,6 +30,7 @@ main {
 }
 main,footer {
     margin-top: 2%;
+    border-radius: 10% 2%;
 }
 
 footer p  {
@@ -34,4 +39,7 @@ footer p  {
 }
 button {
     margin-bottom: 2%;
+}
+h5 {
+    font-size: .5em;
 }
