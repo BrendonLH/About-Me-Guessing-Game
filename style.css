@@ -18,17 +18,18 @@ header {
     font-size: 200%;
     text-decoration: underline;
 }
-main {
-    background-color: rgb(253, 253, 253);
+main, article {
+    background-color: rgb(238, 229, 229);
     line-height: 150%;
     border: 5px solid rgb(99, 112, 230);
     text-align: center;
     max-width: 50%;
     margin-left: 25%;
+    font-size: 120%;
     
     
 }
-main,footer {
+main,footer, article {
     margin-top: 2%;
     border-radius: 10% 2%;
 }
@@ -42,4 +43,16 @@ button {
 }
 h5 {
     font-size: .5em;
+}
+ol, ul {
+    display: inline;
+    list-style-type:decimal;
+    font-size: .5em;
+}
+
+article {
+    font-size: 200%;
+    max-width: 31%;
+    padding:0px 2%;
+    margin:1% auto;
 }
