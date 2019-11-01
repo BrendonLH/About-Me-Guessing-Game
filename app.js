@@ -11,7 +11,7 @@
 //   alert('Hello! Welcome to my site ' + welcomeMsg + '! Please take the test after reading my Bio to get to know me better!');
 // }
 
-// function bioTest() {
+
 //   var workHistory = prompt('Does the Author work for a shipping company?'); {
 //     if(workHistory.toLowerCase() === 'no') {
 //       alert('good Job!');
@@ -52,5 +52,22 @@
 //     else(alert('Congrats! You didnt pay attention!'));
 //   }
 //   var exitMsg = (alert('It was nice meeting you ' + welcomeMsg + ' Thank you for visiting my page and learning alittle about me!'));
-// }
 
+  
+  var userGuess = prompt("What Number on the Top Ten list is Blue on Black by Five Finger Death Punch?");
+  console.log("userGuess: before " + typeof userGuess)
+  userGuess = parseInt(userGuess)
+  console.log("userGuess: after " + typeof userGuess)
+
+  for(guess = 0; guess < 4;guess++) {
+    if(userGuess < 4) {
+      alert("that is too low")
+    }
+    if(userGuess > 4) {
+      alert("That is too high!");
+    }
+    if(userGuess === 4); {
+      alert("thats correct!");
+      {break;}
+    }
+  }
