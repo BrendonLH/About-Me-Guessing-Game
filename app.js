@@ -57,13 +57,14 @@
   // console.log("userGuess: before " + typeof userGuess)
   // userGuess = parseInt(userGuess)
   // console.log("userGuess: after " + typeof userGuess)
-  var nameGame = prompt("what are some awesome Corgi names?")
+  var nameGame = prompt('what are some awesome Corgi names?')
   var corgiAnswers = ['ellie', 'Gizmo', 'einstein', 'Amigo', 'baxter', 'bernie'];
 
 // prompt for Corgi Name guessing game
-  for(corgiGuess = 0; corgiGuess < 5; corgiGuess++) {
-    if(nameGame.toLowerCase() === 'baxter') {
-      alert("Thats a great name!");
+  for(corgiGuess = 0; corgiGuess < 6; corgiGuess++) {
+    if(nameGame.toLowerCase() === 'baxter' || 'ellie' || 'gizmo' || 'einstein' || 'amigo' || 'bernie') {
+      alert('Thats a great name!');
+      var nameGame = prompt('Whats another great name?');
     }
   }
   
