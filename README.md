@@ -11,6 +11,7 @@ This is the second lab assignment making a About me Webpage
 ## 11/3/2019 6:00pm
 1. added Scroll wheel to top ten and the Experience articles.
 2. moved top ten and experience to side of bio.
+3. changed color pallete to reflect blue.
 
 # About me Page ToDo's
 1. Update color pallete
