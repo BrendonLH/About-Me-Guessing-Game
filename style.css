@@ -6,11 +6,16 @@ img {
     
     
 }
+footer {
+    position: relative;
+    bottom:660px;
+}
 body {
     margin: auto;
     max-width: 90%;
     background-color: rgb(177, 183, 199);
     font-family: 'Saira Condensed', sans-serif;
+    max-height:0;
 }
 header {
     background-color: rgb(177, 183, 199);
@@ -18,7 +23,7 @@ header {
     font-size: 200%;
     text-decoration: underline;
 }
-main, article {
+main, div {
     background-color: rgb(238, 229, 229);
     line-height: 150%;
     border: 5px solid rgb(99, 112, 230);
@@ -29,7 +34,7 @@ main, article {
     
     
 }
-main,footer, article {
+main,footer, div {
     margin-top: 2%;
     border-radius: 10% 2%;
 }
@@ -50,7 +55,7 @@ ol, ul {
     font-size: .5em;
 }
 
-article {
+div {
     font-size: 200%;
     max-width: 31%;
     padding:0px 2%;
@@ -58,4 +63,23 @@ article {
 }
 li {
     margin: -3% 0;
+}
+ul {
+    list-style-type: none;
+}
+#experience {
+    position:relative;
+    left:550px;
+    bottom:650px;
+    max-width: 300px;
+    max-height:300px;
+    overflow:scroll;
+}
+#topTen {
+    position:relative;
+    right:550px;
+    bottom:320px;
+    max-width: 300px;
+    max-height:300px;
+    overflow:scroll;
 }
