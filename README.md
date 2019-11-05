@@ -12,6 +12,9 @@ This is the second lab assignment making a About me Webpage
 1. added Scroll wheel to top ten and the Experience articles.
 2. moved top ten and experience to side of bio.
 3. changed color pallete to reflect blue.
+## 11/4/2019 7:52pm
+1. Added canvas to HTML and CSS for future corgi drawing with JS
+2. Changed border colors and Background color scheme.
 
 # About me Page ToDo's
 1. Update color pallete

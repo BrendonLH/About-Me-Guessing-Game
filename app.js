@@ -6,6 +6,8 @@
 // true or false : The Author completed 3 quarters of Community College
 // Has the author ever been employed as a security officer?
 
+
+
 var scoreBoard = 0;
 var welcomeMsg = prompt('What is your name?'); {
   alert('Hello! Welcome to my site ' + welcomeMsg + '! Please take the test after reading my Bio to get to know me better!');
